@@ -1,0 +1,6 @@
+pandas 
+numpy
+seaborn
+-e .
+#it tells pip to Install a project in editable mode " ." indicates to  install the package in the current working directory .
+#pip creates a symbolic link to the packages and doesnt instal like pip into the site packages
