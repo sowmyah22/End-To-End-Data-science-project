@@ -1,13 +1,12 @@
 from flask import Flask,render_template,request,url_for,redirect
 from src.pipeline.predict_pipeline import PredictPipeline,CustomData
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 ## Route to the home page
 @app.route('/')
 def home():
     return render_template('home.html')
-#def index():
-    #return render_template('index.html')
 
 @app.route('/result/<float:res>')
 def result(res):
