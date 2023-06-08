@@ -14,7 +14,7 @@ from src.utils import save_obj
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_file_path=os.path.join("artifact","prepocessor.pkl")
+    preprocessor_file_path=os.path.join("artifact","preprocessor.pkl")
 
 class DataTransformation:
     def __init__(self):
@@ -33,7 +33,7 @@ class DataTransformation:
             numerical_columns=['math_score','reading_score','writing_score']
             categorical_columns=['gender', 'race_ethnicity', 'parental_level_of_education', 
                                  'lunch', 'test_preparation_course']
-            
+        
             logging.info(f"Numerical columns: {numerical_columns}")
             logging.info(f"Categorical columns:{categorical_columns}")
            

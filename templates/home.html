@@ -1,0 +1,81 @@
+<html>
+<body>
+ <div class="Login">
+ <body style="background-color: skyblue;">
+ 
+ <h1>**** Student Exam performance predictor ****</h1>
+ 
+  <form action="{{url_for('prediction')}}" method="post">
+  
+  <div class="features">
+  <label class="form-label">Gender</label>
+  <select class="form-control" name="gender" placeholder="select your gender type" required>
+   <option value="male">Male </option>
+   <option value="female">Female</option>
+  </select>
+  </div>
+  
+  <div class="features">
+  <label class="form-label">Race/Ethnicity</label>
+  <select class="form-control" name="Ethnicity" placeholder="select your Ethnicity" required>
+   <option value="group A">Group A </option>
+   <option value="group B">Group B</option>
+   <option value="group C">Group C</option>
+   <option value="group D">Group D</option>
+   <option value="group E">Group E</option>
+  </select>
+  </div>
+  
+  <div class="features">
+  <label class="form-label">Parental Level of Education</label>
+  <select class="form-control" name="Parental Level of Education" placeholder="select parent Education"required>
+   <option value="associate's degree">associate's degree</option>
+   <option value="bachelor's degree">bachelor's degree</option>
+   <option value="high school">high school</option>
+   <option value="master's degree">master's degree</option>
+   <option value="some college">some college</option>
+   <option value="some high school">some high school</option>
+  </select>
+  </div>
+ 
+ <div class="features">
+ <label class="form-label">Lunch Type</label>
+ <select class="form-control" name="lunch" placeholder="enter your lunch type" required>
+  <option value="free/reduced">free/reduced</option>
+  <option value="standard">standard</option>
+ </select>
+ </div>
+ 
+ <div class="features">
+ <label class="form-label">Test preparation Course</label>
+ <select class="form-control" name="test_preparation_course" placeholder="select the course type" required>
+  <option value="completed">Completed</option>
+  <option value="none">none</option>
+ </select>
+ </div>
+
+ <div class="features">
+<label class="form-label">Math scores</label>
+<input class="form-control" type="number" name="Math score" placeholder="enter the scores out of 100" max='100' min='0'/>
+</div>
+ 
+ <div class="features">
+ <label class="form-label">Reading scores</label>
+ <input class="form-control" type="number" name="Reading Score" placeholder="enter the scores out of 100" max='100' min='0'/>
+ </div>
+ 
+ <div class="features">
+ <label class="form-label">Writing scores</label>
+ <input class="form-control" type="number" name="Writing score" placeholder="enter the scores out of 100" max='100' min='0'/>
+ </div>
+ 
+
+ <div class="features">
+ <input class="btn btn-primary" type="submit" value="Predict your total score" required/>
+ </div>
+</form>
+<h2>**** Prediction of Total Scores out of 300 : {{results}}</h2>
+
+</div>
+</body>
+</html>
