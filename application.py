@@ -37,5 +37,5 @@ def prediction():
         
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',debug=True)
-
+    app.run(host='0.0.0.0')
+#During deployment its not good practice to keep debug as True for security reasons
