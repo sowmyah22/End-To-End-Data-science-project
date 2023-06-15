@@ -71,7 +71,7 @@
      https://hub.docker.com/repository/docker/soumyah22/performanceindicator-app
    
    ### Exploratory Data Analysis Notebook
-      https://github.com/sowmyah22/End-To-End-Data-science-project/blob/79e9c10b172251e0f68f55591f64de174f9ae500/notebook/2.Model_training.ipynb
+      https://github.com/sowmyah22/End-To-End-Data-science-project/blob/main/notebook/2.Model_training.ipynb
    ### Model Training Notebook
       https://github.com/sowmyah22/End-To-End-Data-science-project/blob/75e024fda3ada76367e330cc4d5ac084a9df0c20/notebook/2.Model_training.ipynb
    
