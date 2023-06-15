@@ -41,15 +41,15 @@
 
    1. Data Ingestion :
       
-     * The data is read as a csv file
-     * The data is split into train ,test datasets and saved as csv files
+   * The data is read as a csv file
+   * The data is split into train ,test datasets and saved as csv files
 
    2. Data Transformation:
       
-    * For the numerical data the imputation was a simple imputer with median for the missing values and the data was scaled using the standard scalar
-    * The categorical data is imputed using simple imputer with mode for the missing values ,encoding of the data was done using OneHot encoding and the data was been scaled using standard scalar
-    * The column transformer was used to perform this in sequential manner
-    * The preprocessed data is saves as a pickle file
+   * For the numerical data the imputation was a simple imputer with median for the missing values and the data was scaled using the standard scalar
+   * The categorical data is imputed using simple imputer with mode for the missing values ,encoding of the data was done using OneHot encoding and the data was been scaled using standard scalar
+   * The column transformer was used to perform this in sequential manner
+   * The preprocessed data is saves as a pickle file
 
    3. Model Training:
       
