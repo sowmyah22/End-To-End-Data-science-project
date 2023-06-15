@@ -71,9 +71,9 @@
      https://hub.docker.com/repository/docker/soumyah22/performanceindicator-app
    
    ### Exploratory Data Analysis Notebook
-      link :[EDA_Student_performance](/sowmyah22/End-To-End-Data-science-project/blob/main/notebook/1.EDA_Student_performance.ipynb)
+      link :[EDA](/sowmyah22/End-To-End-Data-science-project/blob/main/notebook/1.EDA_Student_performance)
    ### Model Training Notebook
-       link: 
+       link:[Model_training](/notebook/2.Model_training)
    
    7. Deployment:
    * Deployed using AWS beanstalk for the web application and codepipeline for automating continious delivery service 
