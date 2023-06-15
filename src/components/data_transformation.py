@@ -29,7 +29,6 @@ class DataTransformation:
         - Categorical columns are encoded by Onehot encoding method.
         '''
         try:
-            #numerical_columns=['reading_score', 'writing_score'] 
             numerical_columns=['math_score','reading_score','writing_score']
             categorical_columns=['gender', 'race_ethnicity', 'parental_level_of_education', 
                                  'lunch', 'test_preparation_course']
@@ -85,7 +84,6 @@ class DataTransformation:
             test_df['total_score']=test_df.loc[:,['math_score','reading_score','writing_score']].sum(axis=1)
 
             target_column_name="total_score"
-            #target_column_name="math_score"
 
             input_feature_train_df=train_df.drop(columns=[target_column_name],axis=1)
             target_feature_train_df=train_df[target_column_name]
