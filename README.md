@@ -71,7 +71,7 @@
      https://hub.docker.com/repository/docker/soumyah22/performanceindicator-app
    
    ### Exploratory Data Analysis Notebook
-      link : [EDA_Student_performance](/https://github.com/sowmyah22/End-To-End-Data-science-project/blob/main/notebook/1.EDA_Student_performance.ipynb)
+      link :[EDA_Student_performance](/sowmyah22/End-To-End-Data-science-project/blob/main/notebook/1.EDA_Student_performance.ipynb)
    ### Model Training Notebook
        link: 
    
