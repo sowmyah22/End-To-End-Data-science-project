@@ -73,7 +73,7 @@
    ### Exploratory Data Analysis Notebook
       link : https://github.com/sowmyah22/End-To-End-Data-science-project/blob/main/notebook/1.EDA_Student_performance.ipynb
    ### Model Training Notebook
-       link:
+       link: 
    
    7. Deployment:
    * Deployed using AWS beanstalk for the web application and codepipeline for automating continious delivery service 
