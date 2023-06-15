@@ -40,24 +40,29 @@
    <img width="872" alt="Screenshot 2023-06-15 at 3 42 34 PM" src="https://github.com/sowmyah22/End-To-End-Data-science-project/assets/28885876/1f4b499a-2cc5-4dc5-ad46-c0026fecfc10">
 
    1. Data Ingestion :
+      
      * The data is read as a csv file
      * The data is split into train ,test datasets and saved as csv files
 
    2. Data Transformation:
+      
     * For the numerical data the imputation was a simple imputer with median for the missing values and the data was scaled using the standard scalar
     * The categorical data is imputed using simple imputer with mode for the missing values ,encoding of the data was done using OneHot encoding and the data was been scaled using standard scalar
     * The column transformer was used to perform this in sequential manner
     * The preprocessed data is saves as a pickle file
 
    3. Model Training:
+      
    * The data is trained using various algorithms 
    * Further the hyperparameter tuning is performed and and among those models the best model is selected by the r2 scores
    * The model is saved as a pickle file
 
    4. Prediction:
+      
    * The performance of the student is predicted by providing the details . Those details are taken in the form of dataframe and the saved pickle files are used for the predicton
 
    5. Application:
+      
    * A flask application is created as a user interface for the prediction of the performance of the students
 
    ### Screenshot of the UI 
