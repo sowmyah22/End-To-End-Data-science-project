@@ -1,6 +1,7 @@
-# Students Performance In Exams
+# Prediction of Students Performance In Exams
 
- To develop an application which predict the performance of students in the exams
+ An application which predicts the performance of students in the exams . The app displays a web page to enter the necessary details based on data the predictions are displayed 
+ 
 ## Description of the data
 
    The dataset consist of the marks secured by the students of high school in various subjects
@@ -81,4 +82,4 @@
    link : [Model Training](./notebook/2.Model_training.ipynb)
       
    7. Deployment:
-   * Deployed using AWS beanstalk for the web application and codepipeline for automating continious delivery service 
+   * Deployed using AWS beanstalk for the web application and codepipeline for automating continuous delivery service 
